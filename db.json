@@ -22,3 +22,28 @@
         }
     }
 }
+
+{
+    "NISrvResponse1": {
+        "response_account_status_change": {
+            "header": {
+                "msg_id": "1692103705",
+                "msg_type": "TRANSACTION",
+                "msg_function": "REP_ACCOUNT_STATUS_CHANGE",
+                "src_application": "BNK",
+                "target_application": "WAY4",
+                "timestamp": "2023-08-15T15:48:25.477+03:00",
+                "tracking_id": "13221413256",
+                "bank_id": "NIC"
+            },
+            "exception_details": {
+                "application_name": "TCC-ADP",
+                "date_time": "2023-08-15T15:48:25.477+03:00",
+                "status": "S",
+                "error_code": "000",
+                "error_description": "Success",
+                "transaction_ref_id": "13221413256"
+            }
+        }
+    }
+}
